@@ -1,0 +1,125 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Modern bir yazı tipi */
+    background-color: #f3f4f6; /* Daha hafif bir arka plan rengi */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+#chat-container {
+    background-color: #ffffff; /* Temiz ve modern bir beyaz */
+    width: 90%;
+    max-width: 400px;
+    border-radius: 12px; /* Daha yumuşak kenarlar */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+    padding: 20px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #374151; /* Koyu gri tonunda modern bir başlık rengi */
+    font-size: 1.8rem; /* Biraz daha büyük yazı */
+    font-weight: bold;
+}
+
+#chat-box {
+    height: 300px;
+    overflow-y: auto;
+    border: 1px solid #e5e7eb; /* Daha hafif bir çerçeve */
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #f9fafb; /* Hafif gri bir arka plan */
+    border-radius: 8px;
+}
+
+.message {
+    margin-bottom: 10px;
+}
+
+.username {
+    font-weight: bold;
+    color: #1d4ed8; /* Modern mavi tonu */
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+input {
+    padding: 12px; /* Daha büyük dokunma alanı */
+    border: 1px solid #d1d5db; /* Daha hafif kenar rengi */
+    border-radius: 8px; /* Yuvarlak kenarlar */
+    flex: 1;
+    font-size: 1rem;
+    background-color: #f9fafb; /* Arka planı hafif gri */
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #2563eb; /* Odaklandığında mavi kenar */
+    background-color: #ffffff;
+}
+
+button {
+    padding: 12px 18px;
+    background-color: #3b82f6; /* Daha modern bir mavi */
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #2563eb; /* Daha koyu mavi */
+    transform: scale(1.05); /* Hafif büyüme efekti */
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #1f2937; /* Modern koyu gri */
+    padding: 15px;
+    width: 100%;
+    margin-top: auto; /* Footer'ı en alta iter */
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+    font-weight: bold;
+}
+
+/* --------- Responsive Breakpoints --------- */
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    #chat-box {
+        height: 250px;
+    }
+
+    button {
+        font-size: 0.9rem;
+        padding: 10px 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    #chat-box {
+        height: 280px;
+    }
+}
