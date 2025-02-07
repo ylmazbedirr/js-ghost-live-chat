@@ -1,5 +1,7 @@
 Ghost Live Chat 👻💬
+
 Ghost Live Chat, gerçek zamanlı iletişim sağlayan, tamamen JavaScript ve Firebase kullanılarak geliştirilmiş, backend gerektirmeyen hafif bir canlı sohbet uygulamasıdır.
+
 
 Özellikler 🚀
 Gerçek Zamanlı Mesajlaşma: Kullanıcılar arasında anlık mesaj alışverişi.
