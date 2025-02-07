@@ -10,4 +10,5 @@ Kullanıcı Dostu Arayüz: Modern ve sezgisel tasarım.
 Lisans 📄
 Bu proje MIT Lisansı ile lisanslanmıştır.
 
-![image](https://github.com/user-attachments/assets/116b3392-636d-4396-b355-f88699e05bf9)
+![image](https://github.com/user-attachments/assets/9186470f-6aa7-4275-a870-7a773cb8c962)
+
